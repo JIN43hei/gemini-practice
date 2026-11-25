@@ -33,6 +33,7 @@ export default function Home() {
       <button
         className="mt-3 rounded bg-blue-500 px-6 py-2 text-white"
         onClick={() => {
+          setAnswer("読み込み中...");
           askGemini()
         }}
       >
